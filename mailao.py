@@ -9,9 +9,7 @@ from rich.table import Table
 console = Console()
 banner()
 
-
-
-         print(' \033[97mDec cái con c** nek')
+print(' \033[97mDec cái con c** nek')
 print(' \033[97m ══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════')
 class EmailTool:
     def __init__(self):
