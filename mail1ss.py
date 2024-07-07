@@ -1,5 +1,10 @@
+import os
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 clear()
+
 import requests
 import time
 import re
@@ -20,7 +25,7 @@ from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 bug_duoc_cai_lon = {
     'pass': 'namprohehe' }
 banner()
-print('\x1b[1;37\x1b[1;39m___________________________________________________________________________________________')
+print('\x1b[1;34m_____________________________________________________________________________________')
 import requests
 import time
 import re
