@@ -17,7 +17,7 @@ namtool=pink+'['+blue+'Nam-Tool'+pink+']'
 namtool_no_pro=pinkx+'[Nam-Tool]'+end
 hln=pink+"["+blue+"Nam-Tool"+pink+"]"
 sadboiz=pink+"["+blue+"Nam-Tool"+pink+"]"
-
+clear()
 banner()
 while(True):
         token_tds=input(pink+'\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;37mNHẬP ACCESS_TOKEN TDS: \033[1;33m')
@@ -52,6 +52,7 @@ while(True):
                 if ck_fb=='':
                         print(yellow+'THANKS BẠN ĐÃ SỬ DỤNG TOOL CỦA',sadboiz+' !')
                         quit()
+                clear()
                 banner()
                 u_run='https://traodoisub.com/api/?fields=run&id='+id_fb+'&access_token='+token_tds
                 print(pink+'['+blue+'ĐANG'+pink+' CẤU HÌNH'+blue+' ID: '+pink+id_fb+blue+']')
@@ -62,6 +63,7 @@ while(True):
                         break
                 else:
                         print(red+run.json()['error'].upper())
+        clear()
         banner()
         stop=int(input(pink+'NHẬP '+blue+'SỐ NHIỆM VỤ: '+pink))
         delay=int(input(blue+'NHẬP '+pink+'DELAY: '+green))
